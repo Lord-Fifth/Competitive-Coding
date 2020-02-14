@@ -94,3 +94,30 @@ class M {
         this.budget = budget;        
     }
 }
+
+
+/*
+input :
+aaa
+Arka
+Action
+250000000
+bbbb
+GeethaArts
+Comedy
+25000000
+ccc
+Marvel
+Art
+2000000
+ddd
+Mythri
+Action
+300000000
+Action
+
+
+Output:
+High Budget Movie
+High Budget Movie 
+ */

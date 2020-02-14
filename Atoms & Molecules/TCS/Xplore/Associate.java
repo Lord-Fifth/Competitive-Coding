@@ -107,3 +107,35 @@ class As{
     this.exp = exp;
     }
 }
+
+/*
+Input
+
+
+Alex
+101
+Ja a
+15
+Albert
+102
+Unix
+20
+Alferd
+103
+Testing
+13
+Alfa
+104
+Java
+15
+Almas
+105
+Java
+29
+
+
+Output
+
+101
+104
+*/

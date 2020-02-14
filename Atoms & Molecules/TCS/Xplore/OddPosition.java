@@ -21,3 +21,15 @@ public class OddPosition {
         }
     }
 }
+
+/*
+Output:
+
+
+Example 1:
+Matrix
+Mti
+Example 2:
+Hi how are you?
+H o r o?
+*/
