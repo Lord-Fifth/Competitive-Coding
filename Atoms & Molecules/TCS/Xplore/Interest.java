@@ -45,7 +45,7 @@ public class Interest {
         int noOfYears = Integer.parseInt(br.readLine());
         double interest = calculateInterest(a, noOfYears);
 
-        System.out.println(interest);
+        System.out.println(String.format("%.3f", interest));
     }
 
     public static double calculateInterest(Account a, int noOfYears) {
@@ -54,9 +54,11 @@ public class Interest {
         double rate = a.getInterestRate() + (a.getInterestRate()/100 * noOfYears);
         interest = a.getBalance() * (rate/100);
 
-        DecimalFormat df = new DecimalFormat("###.###");
+        // DecimalFormat df = new DecimalFormat("###.###");
+        // interest = Double.parseDouble(df.format(interest));
 
-        interest = Double.parseDouble(df.format(interest));
+        // int scale = (int) Math.pow(10, 3);
+        // interest =  (double) Math.round(interest * scale) / scale;
 
         return interest;
     }
