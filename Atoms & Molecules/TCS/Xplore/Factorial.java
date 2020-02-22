@@ -1,9 +1,9 @@
-import java.io.*;
 /*
 Write a program to read 5 numbers and print factorials of each.
 (Final answers should be non decimal numbers).
 */
 
+import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;

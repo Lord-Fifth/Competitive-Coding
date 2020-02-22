@@ -70,7 +70,7 @@ public class SimCard {
             }
 
             Sim a = temp[i];
-            temp[i] = temp [max];
+            temp[i] = temp[max];
             temp[max] = a;
         }
 
