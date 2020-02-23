@@ -1,31 +1,32 @@
 /*
-Create class Book with below attributes:
+Create class Books with below attributes:
 id - int
 title - String
 author - String 
 price - double
 
 Write getters, setters and parameterized constructor.
+Create class Contains with main method.
 
-Create class Sort with main method.
-Implement static method-sortBooksByPrice in Sort class.
-This method will take a parameter as array of Book objects.
-It will return an array of books which is sorted in the ascending order of book price. Assume that no two books will have the same 
-price.
-This method should be called from the main method and display values of returned objects as shared in the sample.
+Implement static method-searchTitle in Contains class.
+
+This method will take a parameter of String value along with other parameter as array of Books objects.
+It will return an array of books where String value parameter appears in the title attribute(with case insensitive search).
+This method should be called from the main method and display id of returned objects in ascending order.
 */
 
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
+import java.lang.*;
 import java.util.regex.*;
 
-public class Sort {
+public class Contains {
     public static void main(String args[] ) throws Exception {
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
-        Book b[] = new Book[4];
+        Books b[] = new Books[4];
 
         for(int i = 0; i < 4; i++) {
             int id = Integer.parseInt(br.readLine());
@@ -33,44 +34,61 @@ public class Sort {
             String author = br.readLine();
             double price = Double.parseDouble(br.readLine());
 
-            b[i] = new Book(id, title, author, price);
+            b[i] = new Books(id, title, author, price);
         }
 
-        Book sort[] = sortBooksByPrice(b);
+        String search = br.readLine();
 
-        for(int i = 0; i < 4; i++) {
-            System.out.println(sort[i].getId() + " " + sort[i].getTitle() + " " + sort[i].getAuthor() + " " + (int)sort[i].getPrice());
+        Books result[] = searchTitle(b, search);
+
+        for(int i = 0; i < result.length; i++) {
+            System.out.println(result[i].getId());
         }
         
     }
 
-    public static Book[] sortBooksByPrice(Book b[]) {
+    public static Books[] searchTitle(Books b[], String search) {
 
         //Selection Sort
         for(int i = 0; i < b.length - 1; i++) {
             int min = i;
             for(int k = i + 1; k < b.length; k++) {
-                if(b[k].getPrice() < b[min].getPrice())
+                if(b[k].getId() < b[min].getId())
                     min = k;
             }
 
-            Book a = b[i];
+            Books a = b[i];
             b[i] = b[min];
             b[min] = a;
         }
 
-        return b;
+        int count = 0;
+
+        for(int i = 0; i < b.length; i++) {
+            if(b[i].getTitle().toLowerCase().contains(search.toLowerCase()))
+                count++;
+        }
+
+        Books find[] = new Books[count];
+        count = 0;
+
+        for(int i = 0; i < b.length; i++) {
+            if(b[i].getTitle().toLowerCase().contains(search.toLowerCase()))
+                find[count++] = b[i];
+        }
+
+        return find;
     }
 }
 
-class Book
+class Books
 {
     private int id;
     private String title;
     private String author;
     private double price;
 
-    public Book(int id, String title, String author, double price) {
+    public Books(int id, String title, String author, double price) {
         this.id = id;
         this.title = title;
         this.author = author;
@@ -109,25 +127,24 @@ class Book
 /*
 Input:
 1
-hello
-writer1
+hello world
+aaa writer
 50
 2
-cup
-writer2
+World cup
+bbb writer
 55
 3
-Planet
-writer3
+Planet earth
+ccc writer
 45
 4
-India
-writer4
+India's history
+ddd writer
 40
+WORLD
 
-Output(each line has values separated by single space):
-4 India writer4 40
-3 Planet writer3 45
-1 hello writer1 50
-2 cup writer2 55
+Output:
+1
+2
 */
