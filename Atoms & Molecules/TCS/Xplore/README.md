@@ -35,3 +35,11 @@ This repository contains solutions to the programming questions in the TCS Xplor
 13. [Player Skill and Level](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Player.java)
 
 ***
+
+## UNIX Solutions
+
+
+### Problems
+1. [Alphanumeric Lines](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/AlphaNumeric.sh)
+
+***
