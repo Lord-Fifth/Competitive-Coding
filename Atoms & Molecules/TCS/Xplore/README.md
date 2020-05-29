@@ -1,7 +1,10 @@
-# TCS Xplore Assessment Solutions
+# TCS Xplore Assessment
 This repository contains solutions to the programming questions in the TCS Xplore Assessments.
 
 ***
+
+## Java Solutions
+
 
 ### Simple Problems
 1. [Perfect Square](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/PerfectSquare.java)
@@ -15,7 +18,7 @@ This repository contains solutions to the programming questions in the TCS Xplor
 
 ***
 
-### Advance Problems
+### Advanced Problems
 1. [Associates For Given Technology](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Associate.java)
 2. [Movies Get Movie by Genre](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Movie.java)
 3. [Players Get Average of Runs](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Main.java)
