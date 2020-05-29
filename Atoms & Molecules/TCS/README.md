@@ -29,5 +29,6 @@ This repository contains solutions to the programming questions in the TCS Xplor
 11. [Highest Distance from Origin](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Origin.java)
 12. [Sort Books by Price](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Sort.java)
 13. [Two Dimension](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/TwoD.java)
+13. [Player Skill and Level](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Player.java)
 
 ***
