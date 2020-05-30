@@ -45,5 +45,7 @@ This repository contains solutions to the programming questions in the TCS Xplor
 3. [Word Occurence](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/Occurence.sh)
 4. [Word Count](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/Count.sh)
 5. [Sum of Even numbers](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/EvenSum.sh)
+6. [Highest Score](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/Highest.sh)
+7. [Less than Average Salary](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/Average.sh)
 
 ***
