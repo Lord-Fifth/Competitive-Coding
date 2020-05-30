@@ -41,5 +41,6 @@ This repository contains solutions to the programming questions in the TCS Xplor
 
 ### Problems
 1. [Alphanumeric Lines](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/AlphaNumeric.sh)
+2. [Longest Line](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/Longest.sh)
 
 ***
