@@ -42,5 +42,8 @@ This repository contains solutions to the programming questions in the TCS Xplor
 ### Problems
 1. [Alphanumeric Lines](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/AlphaNumeric.sh)
 2. [Longest Line](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/Longest.sh)
+3. [Word Occurence](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/Occurence.sh)
+4. [Word Count](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/Count.sh)
+5. [Sum of Even numbers](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/UNIX/EvenSum.sh)
 
 ***
