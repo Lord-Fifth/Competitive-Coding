@@ -13,9 +13,9 @@ COMMENT
 count=0
 while IFS= read -r line
 do
-if [[ $line =~  [[:digit:]] ]] ;
+if [[ $line =~ [[:digit:]] ]] ;
 then
-if [[ $line =~ [a-zA-Z]  ]];
+if [[ $line =~ [a-zA-Z] ]];
 then
 count=$((count+1))
 fi
