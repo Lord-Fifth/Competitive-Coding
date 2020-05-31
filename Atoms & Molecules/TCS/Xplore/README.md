@@ -16,6 +16,7 @@ This repository contains solutions to the programming questions in the TCS Xplor
 7. [Number Factorials](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Factorial.java)
 8. [Smallest ASCII](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Smallest.java)
 
+
 ***
 
 ### Advanced Problems
@@ -33,6 +34,22 @@ This repository contains solutions to the programming questions in the TCS Xplor
 12. [Sort Books by Price](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Sort.java)
 13. [Two Dimension](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/TwoD.java)
 13. [Player Skill and Level](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Java/Player.java)
+
+***
+
+## Python Solutions
+
+
+### Simple Problems
+1. [Prime Count](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Python/Prime.py)
+2. [Vowel Count](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Python/Vowels.py)
+
+
+***
+
+### Advanced Problems
+1. [Employee Organisation](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Python/Employee.py)
+2. [Student Grade](https://github.com/Lord-Fifth/Competitive-Coding/blob/master/Atoms%20%26%20Molecules/TCS/Xplore/Python/Grade.py)
 
 ***
 
